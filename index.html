@@ -1,0 +1,99 @@
+<!-- This file has been renamed to avoid conflicts with React app -->
+<!-- React app uses public/index.html as entry point -->
+<!-- If you want to use vanilla JS version, rename this back to index.html and remove src/ directory -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Spotify App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+  integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.jpg.png" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+   
+    <div class="container">
+        <div class="songList">
+        <h1>Best of NCS-No copyright sound</h1>
+          </div>
+          <div class="songItemContainer">
+             <div class="songItem">
+                <img  alt="1">
+                <span class="songName" >Let me Love you</span>
+                <span class="songlistplay"><span class="timestamp">00:00</span></span>
+             </div>
+             <div class="songItem">
+                <img  alt="1">
+                <span  class="songName">Let me Love you</span>
+                <span class="songlistplay"><span class="timestamp">00:00</span></span>
+             </div>
+             <div class="songItem">
+                <img  alt="1">
+                <span  class="songName">Let me Love you</span>
+                <span class="songlistplay"><span class="timestamp">00:00</span></span>
+             </div>
+             <div class="songItem">
+                <img  alt="1">
+                <span  class="songName">Let me Love you</span>
+                <span class="songlistplay"><span class="timestamp">00:00</span></span>
+             </div>
+             <div class="songItem">
+                <img  alt="1">
+                <span  class="songName">Let me Love you</span>
+                <span class="songlistplay"><span class="timestamp">00:00</span></span>
+             </div>
+             <div class="songItem">
+                <img  alt="1">
+                <span  class="songName">Let me Love you</span>
+                <span class="songlistplay"><span class="timestamp">00:00</span></span>
+             </div>
+             <div class="songItem">
+                <img  alt="1">
+                <span  class="songName">Let me Love you</span>
+                <span class="songlistplay"><span class="timestamp">00:00</span></span>
+             </div>
+             <div class="songItem">
+                <img  alt="1">
+                <span  class="songName" >Let me Love you</span> 
+                <span class="songlistplay"><span class="timestamp">00:00</span></span>
+             </div>
+             <div class="songItem">
+                <img  alt="1">
+                <span  class="songName">Let me Love you</span>
+                <span class="songlistplay"><span class="timestamp">00:00</span></span>
+             </div>
+             <div class="songItem">
+                <img  alt="1">
+                <span  class="songName">Let me Love you</span>
+                <span class="songlistplay"><span class="timestamp">00:00</span></span>
+             </div>
+             </div>
+             </div>
+        </div>
+        <div class="songBanner"></div>
+
+    </div>
+    <div class="bottom">
+        <input type="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+         <i class = "fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="fas fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class = "fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.jpg" width="42px" alt="" id="gif"> <span id="masterSongName"></span>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
