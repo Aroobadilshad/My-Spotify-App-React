@@ -17,3 +17,13 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+# editor settings
+.vscode/
+.idea/
+
+# system files
+Thumbs.db
+*.log
+
+# testing
+coverage/
