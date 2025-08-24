@@ -1,6 +1,6 @@
 # My Spotify App-react
 
-A simple music player web app built with React.  
+A music player web app built with React.  
 It mimics the Spotify interface and basic functionality like play, pause, skip, and browsing songs.
 
 ---
@@ -24,10 +24,10 @@ It mimics the Spotify interface and basic functionality like play, pause, skip, 
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd Spotify-App
+   git clone https://github.com/Aroobadilshad/My-Spotify-App-React.git
+   cd My-Spotify-App-React
 
-   2. Install dependencies:
+2. Install dependencies:
 
 npm install
 
@@ -35,8 +35,6 @@ npm install
 3. Start the development server:
 
 npm start
-
-
 
 
 ---
@@ -64,15 +62,14 @@ src/
 
 ---
 
- ## Demo
+ ##  Demo
 
+[View Site Live](https://aroobadilshad.github.io/My-Spotify-App-React/)
 After starting the dev server, open http://localhost:3000 in your browser.
-
 
 
 ---
 
 Notes
 
-This project is for learning purposes and UI practice.
 All audio/cover files are placeholders – you can replace them with your own songs.
