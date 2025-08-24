@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/My-Spotify-App-React/static/css/main.175053b2.css",
+    "main.js": "/My-Spotify-App-React/static/js/main.88769b38.js",
+    "index.html": "/My-Spotify-App-React/index.html",
+    "main.175053b2.css.map": "/My-Spotify-App-React/static/css/main.175053b2.css.map",
+    "main.88769b38.js.map": "/My-Spotify-App-React/static/js/main.88769b38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.175053b2.css",
+    "static/js/main.88769b38.js"
+  ]
+}
