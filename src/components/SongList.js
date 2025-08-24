@@ -7,7 +7,7 @@ const SongList = ({ songs, currentSongIndex, isPlaying, onSongSelect, formatTime
   useEffect(() => {
     // Load durations for all songs
     songs.forEach((song, index) => {
-      const audio = new Audio(`${process.env.PUBLIC_URL}/${song.filePath}`);
+      const audio = new Audio(process.env.PUBLIC_URL + '/' + song.filePath);
       audio.addEventListener('loadedmetadata', () => {
         setSongDurations(prev => ({
           ...prev,
